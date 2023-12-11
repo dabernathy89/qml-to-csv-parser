@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineComponent, ref } from "vue";
+import { ref } from "vue";
 import Papa from "papaparse";
 
 const questionsCSV = ref("");
