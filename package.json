@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build --outDir docs",
+    "build": "vue-tsc && vite build --outDir docs --base \"/qml-to-csv-parser/\"",
     "preview": "vite preview"
   },
   "dependencies": {
